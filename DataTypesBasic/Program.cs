@@ -12,9 +12,9 @@ namespace DataTypesBasic
         {
             int num1 = 5;
             int num2 = 3;
-            int num3 = num1 + num2;
+            int answer = num1 + num2;
             string message = "The answer is:";
-            Console.Write(message + num3);
+            Console.Write(message + answer);
             Console.ReadKey();
         }
     }
